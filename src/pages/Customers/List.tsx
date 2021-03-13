@@ -11,8 +11,8 @@ export default function CustomerList({ customers, clickOnRow }: Props) {
 
     const columns: GridColumns = [
         { field: 'id', hide: true },
-        { field: 'name', headerName: 'Name', width: 322 },
-        { field: 'email', headerName: 'E-mail', width: 323 },
+        { field: 'name', headerName: 'Name', width: 170 },
+        { field: 'email', headerName: 'E-mail', width: 171 },
     ];
 
     return (

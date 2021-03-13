@@ -4,8 +4,10 @@ type Props = { columns: GridColumns, rows: any[], clickOnRow?: (param: GridRowPa
 
 export default function CustomeList({ columns, rows, clickOnRow }: Props) {
 
+    const height = rows.length * 60 + 120;
+
     return (
-        <div style={{ height: 480, width: '100%' }}>
+        <div style={{ width: '100%', height }}>
             <DataGrid
                 rows={rows} columns={columns}
                 onRowClick={clickOnRow}
