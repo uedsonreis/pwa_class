@@ -4,7 +4,7 @@ type Props = { columns: GridColumns, rows: any[], clickOnRow?: (param: GridRowPa
 
 export default function CustomeList({ columns, rows, clickOnRow }: Props) {
 
-    const height = rows.length * 60 + 120;
+    const height = rows.length * 60 + 130;
 
     return (
         <div style={{ width: '100%', height }}>
